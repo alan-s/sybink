@@ -2,17 +2,26 @@ import React from "react";
 import Link from "next/link";
 
 interface NavigationItem {
-  name: string;
-  href: string;
-  current: boolean;
+  name: string
+  href: string
+  current: boolean
+  children?: NavigationItem[]
 }
 
 const navigation: NavigationItem[] = [
   { name: 'Home', href: '/', current: true },
-  { name: 'Services', href: '/#services', current: false },
   { name: 'About', href: '/#about', current: false },
-  { name: 'Project', href: '/#project', current: false },
-  { name: 'Contact Us', href: '/', current: false },
+  {
+    name: 'Products',
+    href: '#',
+    current: false,
+    children: [
+      { name: 'Sentinel', href: '/sentinel', current: false },
+      { name: 'sysPOS', href: '/syspos', current: false },
+    ],
+  },
+  { name: 'Services', href: '/#services', current: false },
+  { name: 'Contact Us', href: '/#contact', current: false },
 ]
 
 function classNames(...classes: string[]) {
