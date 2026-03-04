@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
   basePath: '/sybink',
-  assetPrefix: '/sybink',
+  assetPrefix: '/sybink/',
 }
 
 module.exports = nextConfig
