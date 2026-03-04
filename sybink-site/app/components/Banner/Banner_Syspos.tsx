@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getAssetPath } from "@/app/lib/config";
 
 
 
@@ -17,7 +18,7 @@ const Banner = () => {
                     </div>
                     <div className="flex justify-center mt-8 ml-10">
                         <Image
-                            src={'/assets/syspos/sysposscreen.png'}
+                            src={getAssetPath('/assets/syspos/sysposscreen.png')}
                             alt="banner-image"
                             width={1000}
                             height={498}

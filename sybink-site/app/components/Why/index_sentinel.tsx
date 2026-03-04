@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getAssetPath } from "@/app/lib/config";
 
 interface whydata {
     heading: string;
@@ -30,7 +31,7 @@ const Why = () => {
 
                     {/* COLUMN-1 */}
                     <div className="lg:-ml-64">
-                        <Image src="/assets/why/iPad.png" alt="iPad-image" width={4000} height={900} />
+                        <Image src={getAssetPath("/assets/why/iPad.png")} alt="iPad-image" width={4000} height={900} />
                     </div>
 
                     {/* COLUMN-2 */}
@@ -42,7 +43,7 @@ const Why = () => {
                             {whydata.map((items, i) => (
                                 <div className="flex mt-4" key={i}>
                                     <div className="rounded-full h-10 w-12 flex items-center justify-center bg-circlebg">
-                                        <Image src="/assets/why/check.svg" alt="check-image" width={24} height={24} />
+                                        <Image src={getAssetPath("/assets/why/check.svg")} alt="check-image" width={24} height={24} />
                                     </div>
                                     <div className="ml-5">
                                         <h4 className="text-2xl font-semibold">{items.heading}</h4>

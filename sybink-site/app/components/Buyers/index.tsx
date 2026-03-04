@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { getAssetPath } from '@/app/lib/config';
 
 interface cardDataType {
     imgSrc: string;
@@ -9,25 +10,25 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
     {
-        imgSrc: '/assets/buyers/ourbuyers.svg',
+        imgSrc: getAssetPath('/assets/buyers/ourbuyers.svg'),
         percent: '4+',
         heading: "Years operating",
         subheading: "Since 2011, we've continued to provide technology services to London SMBs.",
     },
     {
-        imgSrc: '/assets/buyers/projectcompleted.svg',
+        imgSrc: getAssetPath('/assets/buyers/projectcompleted.svg'),
         percent: '12',
         heading: "Projects delivered",
         subheading: "We've delivered projects to gyms, restaurants, retailers, pharmacies, and many more.",
     },
     {
-        imgSrc: '/assets/buyers/happybuyers.svg',
+        imgSrc: getAssetPath('/assets/buyers/happybuyers.svg'),
         percent: '88%',
         heading: "Recommendation",
         subheading: "We’re highly rated, with most of our clients coming through recommendations.",
     },
     {
-        imgSrc: '/assets/buyers/teammembers.svg',
+        imgSrc: getAssetPath('/assets/buyers/teammembers.svg'),
         percent: '24/7',
         heading: "Ongoing support",
         subheading: "We offer unrivalled support throughout your project.",

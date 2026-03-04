@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import Drawer from './Drawer'
 import Drawerdata from './Drawerdata'
+import { getAssetPath } from '@/app/lib/config'
 
 interface NavigationItem {
   name: string
@@ -45,12 +46,12 @@ const Navbar = () => {
             <div className="flex flex-shrink-0 items-center">
               <img
                 className="block h-12 w-40 lg:hidden"
-                src="/assets/logo/logo.png"
+                src={getAssetPath("/assets/logo/logo.png")}
                 alt="logo"
               />
               <img
                 className="hidden h-full w-full lg:block"
-                src="/assets/logo/logo.png"
+                src={getAssetPath("/assets/logo/logo.png")}
                 alt="logo"
               />
             </div>

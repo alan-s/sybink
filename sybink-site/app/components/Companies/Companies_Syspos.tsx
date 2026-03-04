@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { Component, createRef } from "react";
 import Slider from "react-slick";
+import { getAssetPath } from "@/app/lib/config";
 
 // IMAGES DATA FOR CAROUSEL
 interface Data {
@@ -9,15 +10,15 @@ interface Data {
 }
 
 const data: Data[] = [
-{ imgSrc: "/assets/syspos/syslogin2.png" },
-{ imgSrc: "/assets/syspos/syspos.png" },
-{ imgSrc: "/assets/syspos/sysmain.png" },
-{ imgSrc: "/assets/syspos/sysrunas.png" },
-{ imgSrc: "/assets/syspos/sysprod.png" },
-{ imgSrc: "/assets/syspos/sysreviewstock.png" },
-{ imgSrc: "/assets/syspos/sysposdash.png" },
-{ imgSrc: "/assets/syspos/sysstocktake.png" },
-{ imgSrc: "/assets/syspos/syscompany.png" },
+{ imgSrc: getAssetPath("/assets/syspos/syslogin2.png") },
+{ imgSrc: getAssetPath("/assets/syspos/syspos.png") },
+{ imgSrc: getAssetPath("/assets/syspos/sysmain.png") },
+{ imgSrc: getAssetPath("/assets/syspos/sysrunas.png") },
+{ imgSrc: getAssetPath("/assets/syspos/sysprod.png") },
+{ imgSrc: getAssetPath("/assets/syspos/sysreviewstock.png") },
+{ imgSrc: getAssetPath("/assets/syspos/sysposdash.png") },
+{ imgSrc: getAssetPath("/assets/syspos/sysstocktake.png") },
+{ imgSrc: getAssetPath("/assets/syspos/syscompany.png") },
 ];
 
 interface State {

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { Component, createRef } from "react";
 import Slider from "react-slick";
+import { getAssetPath } from "@/app/lib/config";
 
 // IMAGES DATA FOR CAROUSEL
 interface Data {
@@ -9,18 +10,18 @@ interface Data {
 }
 
 const data: Data[] = [
-  { imgSrc: "/assets/sentinel/cameracapture.png" },
-  { imgSrc: "/assets/sentinel/delete02.png" },
-  { imgSrc: "/assets/sentinel/gatekeeper.png" },
-  { imgSrc: "/assets/sentinel/gatekeeper03.png" },
-  { imgSrc: "/assets/sentinel/login.png" },
-  { imgSrc: "/assets/sentinel/memberform.png" },
-  { imgSrc: "/assets/sentinel/memberform03.png" },
-  { imgSrc: "/assets/sentinel/plans05.png" },
-  { imgSrc: "/assets/sentinel/reminder02.png" },
-  { imgSrc: "/assets/sentinel/reminder03.png" },
-  { imgSrc: "/assets/sentinel/reports01.png" },
-  { imgSrc: "/assets/sentinel/settings01.png" },
+  { imgSrc: getAssetPath("/assets/sentinel/cameracapture.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/delete02.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/gatekeeper.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/gatekeeper03.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/login.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/memberform.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/memberform03.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/plans05.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/reminder02.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/reminder03.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/reports01.png") },
+  { imgSrc: getAssetPath("/assets/sentinel/settings01.png") },
 ];
 
 interface State {

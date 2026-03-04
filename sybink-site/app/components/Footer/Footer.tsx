@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { getAssetPath } from "@/app/lib/config";
 
 // MIDDLE LINKS DATA
 interface ProductType {
@@ -27,16 +28,16 @@ const footer = () => {
                     {/* COLUMN-1 */}
 
                     <div className='col-span-4 md:col-span-12 lg:col-span-4'>
-                        <img src={'/assets/footer/logo2.png'} alt="logo" className='pb-8' />
+                        <img src={getAssetPath('/assets/footer/logo2.png')} alt="logo" className='pb-8' />
                         <div className='flex gap-4'>
                             <Link href="https://www.facebook.com/SybinkSystems/" className='footer-fb-icons' target="_blank">
-                                <Image src={'/assets/footer/facebook.svg'} alt="facebook" width={15} height={20} />
+                                <Image src={getAssetPath('/assets/footer/facebook.svg')} alt="facebook" width={15} height={20} />
                             </Link>
                             <Link href="https://x.com/Sybink" className='footer-icons' target="_blank">
-                                <Image src={'/assets/footer/twitter.svg'} alt="twitter" width={20} height={20} />
+                                <Image src={getAssetPath('/assets/footer/twitter.svg')} alt="twitter" width={20} height={20} />
                             </Link>
                             <Link href="https://www.linkedin.com/company/sybink" className='footer-icons' target="_blank">
-                                <Image src={'/assets/footer/linkedin.svg'} alt="linkedin" width={20} height={20} />
+                                <Image src={getAssetPath('/assets/footer/linkedin.svg')} alt="linkedin" width={20} height={20} />
                             </Link> 
                         </div>
                     </div>
@@ -59,15 +60,15 @@ const footer = () => {
 
                     <div className='col-span-4 md:col-span-4 lg:col-span-4'>
                         <div className="flex gap-2">
-                            <Image src={'/assets/footer/mask.svg'} alt="mask-icon" width={24} height={24} />
+                            <Image src={getAssetPath('/assets/footer/mask.svg')} alt="mask-icon" width={24} height={24} />
                             <h5 className="text-base font-normal text-offwhite">London, United Kingdom</h5>
                         </div>
                         <div className="flex gap-2 mt-10">
-                            <Image src={'/assets/footer/telephone.svg'} alt="telephone-icon" width={24} height={24} />
+                            <Image src={getAssetPath('/assets/footer/telephone.svg')} alt="telephone-icon" width={24} height={24} />
                             <h5 className="text-base font-normal text-offwhite">08448 122 022</h5>
                         </div>
                         <div className="flex gap-2 mt-10">
-                            <Image src={'/assets/footer/email.svg'} alt="email-icon" width={24} height={24} />
+                            <Image src={getAssetPath('/assets/footer/email.svg')} alt="email-icon" width={24} height={24} />
                             <h5 className="text-base font-normal text-offwhite">info@sybink.com | support@sybink.com</h5>
                         </div>
                     </div>

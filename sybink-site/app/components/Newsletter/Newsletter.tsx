@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getAssetPath } from "@/app/lib/config";
 
 const Newsletter = () => {
     return (
@@ -9,12 +10,12 @@ const Newsletter = () => {
                     {/* COLUMN-1 */}
                     <div className='hidden lg:block'>
                         <div className='float-right pt-20 relative'>
-                            <Image src={'/assets/newsletter/bgImage.png'} alt="bgimg" width={588} height={334} />
+                            <Image src={getAssetPath('/assets/newsletter/bgImage.png')} alt="bgimg" width={588} height={334} />
                             <div className="absolute top-10 right-0">
-                                <Image src={'/assets/newsletter/leaf.svg'} alt="leafimg" width={81} height={81}/>
+                                <Image src={getAssetPath('/assets/newsletter/leaf.svg')} alt="leafimg" width={81} height={81}/>
                             </div>
                             <div className="absolute bottom-8 left-2">
-                                <Image src={'/assets/newsletter/circel.svg'} alt="circleimg" width={30} height={30}/>
+                                <Image src={getAssetPath('/assets/newsletter/circel.svg')} alt="circleimg" width={30} height={30}/>
                             </div>
                         </div>
                     </div>
@@ -26,7 +27,7 @@ const Newsletter = () => {
                         <div className="flex gap-0">
                             <input type="Email address" name="q" className="py-4 text-sm w-full text-black bg-white rounded-l-lg pl-4" placeholder="@enter email-address" autoComplete="off" />
                             <button className="bg-midblue text-white font-medium py-2 px-4 rounded-r-lg">
-                                <Image src={'/assets/newsletter/plane.svg'} alt="plane-img" width={20} height={20} />
+                                <Image src={getAssetPath('/assets/newsletter/plane.svg')} alt="plane-img" width={20} height={20} />
                             </button>
                         </div>
                     </div>

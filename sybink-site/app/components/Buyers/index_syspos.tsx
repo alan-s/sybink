@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/24/solid'
+import { getAssetPath } from '@/app/lib/config';
 
 const CollapsibleBox = ({ title, children }: { title: string; children: React.ReactNode }) => {
   return (
@@ -30,17 +31,17 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
     {
-        imgSrc: '/assets/buyers/barcode.png',
+        imgSrc: getAssetPath('/assets/buyers/barcode.png'),
         heading: "Electronic Point of Sale",
         subheading: `Intuitive and simple transactions. Complete systems available with touchscreen, barcode scanner, receipt printer and till drawer.`
     },
     {
-        imgSrc: '/assets/buyers/stock.png',
+        imgSrc: getAssetPath('/assets/buyers/stock.png'),
         heading: "Stock Management",
         subheading: `Quickly and easily add products and services. Monitor stock additions and deductions, and reduce purchasing costs immediately.`,
     },
     {
-        imgSrc: '/assets/buyers/speedometer.png',
+        imgSrc: getAssetPath('/assets/buyers/speedometer.png'),
         heading: "Review & Analysis",
         subheading: `Review daily, weekly and monthly takings with engaging dashboards. Create meaningful reports with the ability to export to PDF or Excel.`,
     },

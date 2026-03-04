@@ -32,7 +32,7 @@ html:not([data-scroll="0"]) .navbar {
 }
 
 .banner-image {
-    background-image: url('/assets/banner/shapes.svg');
+    background-image: url('/sybink/assets/banner/shapes.svg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
@@ -63,7 +63,7 @@ hr {
 }
 
 .bg-image-what {
-    background-image: url('/assets/clientsay/bgimage.svg');
+    background-image: url('/sybink/assets/clientsay/bgimage.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
