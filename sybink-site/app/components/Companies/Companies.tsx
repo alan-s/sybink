@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
+import { getAssetPath } from "@/app/lib/config";
 
 // IMAGES DATA FOR CAROUSEL
 interface Data {
@@ -10,25 +11,25 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/assets/carousel/MB-Logo.png"
+        imgSrc: getAssetPath("/assets/carousel/MB-Logo.png")
     },
     {
-        imgSrc: "/assets/carousel/Manaz.jpg"
+        imgSrc: getAssetPath("/assets/carousel/Manaz.jpg")
     },
     {
-        imgSrc: "/assets/carousel/DD-Logo.png"
+        imgSrc: getAssetPath("/assets/carousel/DD-Logo.png")
     },
     {
-        imgSrc: "/assets/carousel/MozaikTiles.jpg"
+        imgSrc: getAssetPath("/assets/carousel/MozaikTiles.jpg")
     },
     {
-        imgSrc: "/assets/carousel/JawWilz-Logo.png"
+        imgSrc: getAssetPath("/assets/carousel/JawWilz-Logo.png")
     },
         {
-        imgSrc: "/assets/carousel/Gillian.jpg"
+        imgSrc: getAssetPath("/assets/carousel/Gillian.jpg")
     },
     {
-        imgSrc: "/assets/carousel/FM.png"
+        imgSrc: getAssetPath("/assets/carousel/FM.png")
     }
 ]
 
