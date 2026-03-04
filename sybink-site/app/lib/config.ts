@@ -13,11 +13,9 @@ export const getAssetPath = (assetPath: string): string => {
 export const BASE_PATH = nextConfig.basePath || '';
 
 
-export const withBasePath = (path: string) => {
-  const basePath = '/sybink'; // match next.config.js
-  // handle root, hashes, and avoid double slashes
-  if (!path || path === '#') return path;
-  if (path.startsWith('#')) return `${basePath}/${path}`;
-  if (path.startsWith(basePath)) return path; // already prefixed
-  return `${basePath}${path.startsWith('/') ? '' : '/'}${path}`;
+export const getHref = (url: string): string => {
+  if (!url || url === '#') return url; // leave empty/hash links alone
+  if (url.startsWith(BASE_PATH)) return url; // already prefixed
+  if (url.startsWith('#')) return `${BASE_PATH}/${url}`; // hash link
+  return `${BASE_PATH}${url.startsWith('/') ? '' : '/'}${url}`; // normal path
 };
