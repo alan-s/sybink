@@ -1,7 +1,6 @@
 import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/Footer';
-import { HashScroll } from './components/HashScroll';
 
 export const metadata = {
   title: 'Sybink Systems',
@@ -16,7 +15,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <HashScroll />
         <Navbar />
         {children}
         <section id="contact">

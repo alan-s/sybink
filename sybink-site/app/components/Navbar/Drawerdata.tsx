@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { withBasePath } from '@/app/lib/config'
 
 interface NavigationItem {
   name: string
@@ -9,19 +10,19 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/#about', current: false },
+  { name: 'Home', href: withBasePath('/'), current: true },
+  { name: 'About', href: withBasePath('/#about'), current: false },
   {
     name: 'Products',
     href: '#',
     current: false,
     children: [
-      { name: 'Sentinel', href: '/sentinel', current: false },
-      { name: 'sysPOS', href: '/syspos', current: false },
+      { name: 'Sentinel', href: withBasePath('/sentinel'), current: false },
+      { name: 'sysPOS', href: withBasePath('/syspos'), current: false },
     ],
   },
-  { name: 'Services', href: '/#services', current: false },
-  { name: 'Contact Us', href: '/#contact', current: false },
+  { name: 'Services', href: withBasePath('/#services'), current: false },
+  { name: 'Contact Us', href: withBasePath('/#contact'), current: false },
 ]
 
 function classNames(...classes: string[]) {
