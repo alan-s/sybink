@@ -15,18 +15,18 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/about#', current: false },
+  { name: 'About', href: '/#about', current: false },
   {
     name: 'Products',
     href: '#',
     current: false,
     children: [
-      { name: 'Sentinel', href: '/sentinel#', current: false },
-      { name: 'sysPOS', href: '/syspos#', current: false },
+      { name: 'Sentinel', href: '/sentinel', current: false },
+      { name: 'sysPOS', href: '/syspos', current: false },
     ],
   },
-  { name: 'Services', href: '/services#', current: false },
-  { name: 'Contact Us', href: '/contact#', current: false },
+  { name: 'Services', href: '/#services', current: false },
+  { name: 'Contact Us', href: '/#contact', current: false },
 ]
 
 function classNames(...classes: string[]) {
