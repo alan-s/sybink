@@ -11,7 +11,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: 'Home', href: getHref('/'), current: true },
-  { name: 'About', href: getHref('/#about'), current: false },
+  { name: 'About', href: getHref('#about'), current: false },
   {
     name: 'Products',
     href: '#',
@@ -21,8 +21,8 @@ const navigation: NavigationItem[] = [
       { name: 'sysPOS', href: getHref('/syspos'), current: false },
     ],
   },
-  { name: 'Services', href: getHref('/#services'), current: false },
-  { name: 'Contact Us', href: getHref('/#contact'), current: false },
+  { name: 'Services', href: getHref('#services'), current: false },
+  { name: 'Contact Us', href: getHref('#contact'), current: false },
 ]
 
 function classNames(...classes: string[]) {
