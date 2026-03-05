@@ -21,7 +21,7 @@ const products: ProductType[] = [
 
 const footer = () => {
     return (
-        
+
         <div className="bg-darkblue -mt-40">
             <div className="mx-auto max-w-2xl pt-48 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="my-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
@@ -30,7 +30,7 @@ const footer = () => {
                     <div className='col-span-4 md:col-span-12 lg:col-span-4'>
                         <img src={getAssetPath('/assets/footer/logo2.png')} alt="logo" className='pb-8' />
                         <div className='flex gap-4'>
-                            <Link href="https://www.facebook.com/SybinkSystems/" className='footer-fb-icons' target="_blank">
+                            <Link href="https://www.facebook.com/SybinkSystems" className='footer-fb-icons' target="_blank">
                                 <Image src={getAssetPath('/assets/footer/facebook.svg')} alt="facebook" width={15} height={20} />
                             </Link>
                             <Link href="https://x.com/Sybink" className='footer-icons' target="_blank">
@@ -38,7 +38,10 @@ const footer = () => {
                             </Link>
                             <Link href="https://www.linkedin.com/company/sybink" className='footer-icons' target="_blank">
                                 <Image src={getAssetPath('/assets/footer/linkedin.svg')} alt="linkedin" width={20} height={20} />
-                            </Link> 
+                            </Link>
+                            <Link href="https://www.youtube.com/sybink" className='footer-icons' target="_blank">
+                                <Image src={getAssetPath('/assets/footer/youtube.svg')} alt="youtube" width={20} height={20} />
+                            </Link>
                         </div>
                     </div>
 

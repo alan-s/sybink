@@ -20,12 +20,12 @@ const Banner = () => {
 
                     <div className="text-center mt-5">
                         <Link
-                            href="/sentinel"
+                            href="/products/sentinel"
                             className="text-15px text-white font-medium bg-blue py-5 px-9 mt-2 leafbutton inline-block text-center">
                             Sentinel Membership Management
                         </Link>
                         <Link
-                            href="/syspos"
+                            href="/products/syspos"
                             className="text-15px ml-4 mt-2 text-blue transition duration-150 ease-in-out hover:text-white hover:bg-blue font-medium py-5 px-16 border border-lightgrey leafbutton inline-block text-center">
                             sysPOS Point of Sale
                         </Link>

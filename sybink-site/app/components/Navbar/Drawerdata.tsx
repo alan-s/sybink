@@ -16,8 +16,8 @@ const navigation: NavigationItem[] = [
     href: '#',
     current: false,
     children: [
-      { name: 'Sentinel', href: '/sentinel', current: false },
-      { name: 'sysPOS', href: '/syspos', current: false },
+      { name: 'Sentinel', href: '/products/sentinel', current: false },
+      { name: 'sysPOS', href: '/products/syspos', current: false },
     ],
   },
   { name: 'Services', href: '/#services', current: false },
