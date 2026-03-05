@@ -3,7 +3,7 @@ import { getAssetPath } from "@/app/lib/config";
 
 const Newsletter = () => {
     return (
-        <div className='-mt-32 relative z-3'>
+        <div className='mt-0 lg:-mt-32 relative z-3'>
             <div className="mx-auto max-w-2xl lg:max-w-7xl bg-blue-500 rounded-3xl">
                 <div className="grid grid-cols-1 gap-y-10 gap-x-6 lg:grid-cols-2 xl:gap-x-8">
 
