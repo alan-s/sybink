@@ -19,7 +19,7 @@ const navigation: NavigationItem[] = [
   { name: 'About', href: '/#about', current: false },
   {
     name: 'Products',
-    href: '#',
+    href: '',
     current: false,
     children: [
       { name: 'Sentinel', href: '/products/sentinel', current: false },

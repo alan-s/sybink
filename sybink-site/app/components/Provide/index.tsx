@@ -46,7 +46,7 @@ const Provide = () => {
                         <div className="flex flex-col align-middle justify-center p-10">
                             <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">How we can help.</p>
                             <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">We don’t believe the benefits of automated systems should be limited to large corporations only.  That is why Sybink Systems has lead in providing Small to Medium Businesses (SMB) complete, reliable and affordable bespoke applications.</h4>
-                            <Link href={'/'} className="mt-4 text-xl font-medium text-blue flex gap-2 mx-auto lg:mx-0 space-links">Learn more <Image src={getAssetPath('/assets/provide/arrow.svg')} alt={'arrow'} width={20} height={20} /></Link>
+                            <Link href={'/#contact'} className="mt-4 text-xl font-medium text-blue flex gap-2 mx-auto lg:mx-0 space-links">Learn more <Image src={getAssetPath('/assets/provide/arrow.svg')} alt={'arrow'} width={20} height={20} /></Link>
                         </div>
                     </div>
 
