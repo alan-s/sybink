@@ -82,7 +82,7 @@ export default class MultipleItems extends Component {
 
             <div className='text-center'>
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 cursor-pointer focus:outline-none object-contain opacity-70 hover:opacity-100 transition duration-300">
-                    <div className="py-14">
+                    <div className="py-4 lg:py-14">
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i} className="focus:outline-none focus:ring-0">
