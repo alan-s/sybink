@@ -49,7 +49,10 @@ const Data = () => {
                 {item.children ? (
                   <div>
                     <button
-                      onClick={() => toggleExpanded(item.name)}
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        toggleExpanded(item.name)
+                      }}
                       className="w-full text-left px-2 py-1 text-lg font-normal opacity-75 hover:opacity-100 hover:text-black flex items-center justify-between">
                       {item.name}
                     </button>
