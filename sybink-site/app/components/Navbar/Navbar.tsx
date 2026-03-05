@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 import Drawer from './Drawer'
 import Drawerdata from './Drawerdata'
-import { getAssetPath, getHref } from '@/app/lib/config'
+import { getAssetPath } from '@/app/lib/config'
 
 interface NavigationItem {
   name: string
@@ -15,19 +15,19 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: getHref('/'), current: true },
-  { name: 'About', href: getHref('/#about'), current: false },
+  { name: 'Home', href: '/', current: true },
+  { name: 'About', href: '/#about', current: false },
   {
     name: 'Products',
     href: '#',
     current: false,
     children: [
-      { name: 'Sentinel', href: getHref('/sentinel'), current: false },
-      { name: 'sysPOS', href: getHref('/syspos'), current: false },
+      { name: 'Sentinel', href: '/sentinel', current: false },
+      { name: 'sysPOS', href: '/syspos', current: false },
     ],
   },
-  { name: 'Services', href: getHref('/#services'), current: false },
-  { name: 'Contact Us', href: getHref('/#contact'), current: false },
+  { name: 'Services', href: '/#services', current: false },
+  { name: 'Contact Us', href: '/#contact', current: false },
 ]
 
 function classNames(...classes: string[]) {
