@@ -15,21 +15,20 @@ const Banner = () => {
                         <p className="mt-6 text-lg leading-8 text-bluegray" >
                             Sybink Systems delivers innovative software development, web and graphic design, and technology consultancy from our London base.
                             <br /><br />
-                            Sentinel — leading gym membership management software, and sysPOS — the all-in-one POS solution for gyms and small retailers.
+                            Discover <a href="/products/sentinel" className="font-semibold text-blue-600">Sentinel Membership Management</a> — the leading membership management software for small gyms, and <br /> <a href="/products/syspos" className="font-semibold text-blue-600">sysPOS</a> — the all-in-one POS solution for gyms and small retailers.
                         </p>
                     </div>
-
 
                     <div className="text-center mt-5">
                         <Link
                             href="/products/sentinel"
                             className="text-15px text-white font-medium bg-blue py-5 px-9 mt-2 leafbutton inline-block text-center">
-                            Sentinel Membership Management
+                            Sentinel
                         </Link>
                         <Link
                             href="/products/syspos"
                             className="text-15px ml-4 mt-2 text-blue transition duration-150 ease-in-out hover:text-white hover:bg-blue font-medium py-5 px-16 border border-lightgrey leafbutton inline-block text-center">
-                            sysPOS Point of Sale
+                            sysPOS
                         </Link>
 
                     </div>
