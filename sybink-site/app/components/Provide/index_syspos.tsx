@@ -68,7 +68,7 @@ const Provide = () => {
                     <div className='lg:col-span-1'></div>
 
                     {/* COLUMN-2 */}
-                    <div className='col-span-6 lg:col-span-5'>
+                    <div className='col-span-6 lg:col-span-5 justify-center items-center'>
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-10 lg:gap-x-40 px-10 py-12 bg-bluebg rounded-3xl'>
                             {Aboutdata.map((item, i) => (
                                 <div
@@ -76,7 +76,7 @@ const Provide = () => {
                                     className='bg-white rounded-3xl lg:-ml-32 p-6 shadow-xl cursor-pointer hover:opacity-80 transition duration-300'
                                     onClick={() => openFullscreen(item.link)}
                                 >
-                                    <Image src={item.imgSrc} alt={item.imgSrc} width={200} height={150} className="mb-5 object-contain" />
+                                    <Image src={item.imgSrc} alt={item.imgSrc} width={300} height={250} className="mb-5 object-contain" />
                                     <h4 className="text-xl font-medium">{item.country}</h4>
                                 </div>
                             ))}

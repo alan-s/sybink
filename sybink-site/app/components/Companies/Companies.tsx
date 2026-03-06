@@ -69,7 +69,7 @@ export default class MultipleItems extends Component {
                 {
                     breakpoint: 500,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false
@@ -86,7 +86,7 @@ export default class MultipleItems extends Component {
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i} className="focus:outline-none focus:ring-0">
-                                    <Image src={item.imgSrc} alt={item.imgSrc} width={138} height={138} />
+                                    <Image src={item.imgSrc} alt={item.imgSrc} width={140} height={140} />
                                 </div>
                             )}
                         </Slider>

@@ -45,16 +45,18 @@ const Navbar = () => {
 
             {/* LOGO */}
             <div className="flex flex-shrink-0 items-center">
-              <img
-                className="block h-12 w-40 lg:hidden"
-                src={getAssetPath("/assets/logo/logo.png")}
-                alt="logo"
-              />
-              <img
-                className="hidden h-full w-full lg:block"
-                src={getAssetPath("/assets/logo/logo.png")}
-                alt="logo"
-              />
+              <Link href="/">
+                <img
+                  className="block h-12 w-40 lg:hidden"
+                  src={getAssetPath("/assets/logo/logo.png")}
+                  alt="logo"
+                />
+                <img
+                  className="hidden h-full w-full lg:block"
+                  src={getAssetPath("/assets/logo/logo.png")}
+                  alt="logo"
+                />
+              </Link>
             </div>
 
             {/* DESKTOP LINKS */}
