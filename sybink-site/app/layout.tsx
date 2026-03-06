@@ -4,7 +4,7 @@ import Footer from './components/Footer/Footer';
 
 export const metadata = {
   title: 'Sybink Systems',
-  description: 'market driven systems, built on industry proven technologies',
+  description: 'market driven systems built on proven technology',
 }
 
 export default function RootLayout({

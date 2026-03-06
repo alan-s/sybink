@@ -30,7 +30,7 @@ const Why = () => {
 
                     {/* COLUMN-1 */}
                     <div className="lg:-ml-64">
-                        <Image src={getAssetPath("/assets/why/iPad2.png")} alt="iPad-image" width={3000} height={800} />
+                        <Image src={getAssetPath("/assets/why/iPad.png")} alt="iPad-image" width={3000} height={800} />
                     </div>
 
                     {/* COLUMN-2 */}
