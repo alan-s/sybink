@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
 
 
@@ -7,7 +7,9 @@ const Banner = () => {
     return (
         <main>
             <div className="px-6 lg:px-8">
-                <div className="mx-auto max-w-7xl pt-16 sm:pt-20 pb-20 banner-image">
+                <div className="mx-auto max-w-7xl pt-16 sm:pt-20 pb-20 relative">
+                    {/* Background only visible on lg screens */}
+                    <div className="absolute inset-0 banner-image hidden lg:block" aria-hidden="true"></div>
                     <div className="text-center">
                         <h1 className="text-2xl font-semibold text-navyblue sm:text-3xl  lg:text-5xl md:4px lh-66">
                             market-driven systems, <br />built on proven technology.
@@ -15,7 +17,7 @@ const Banner = () => {
                         <p className="mt-6 text-lg leading-8 text-bluegray" >
                             Sybink Systems delivers innovative software development, web and graphic design, and technology consultancy from our London base.
                             <br /><br />
-                            Discover <a href="/products/sentinel" className="font-semibold text-blue-600">Sentinel Membership Management</a> — the leading membership management software for small gyms, and <br /> <a href="/products/syspos" className="font-semibold text-blue-600">sysPOS</a> — the all-in-one POS solution for gyms and small retailers.
+                            Discover <a href="/products/sentinel" className="font-semibold text-blue-600">Sentinel Membership Management</a> — the leading membership management software for small gyms, and <a href="/products/syspos" className="font-semibold text-blue-600">sysPOS</a> — the all-in-one POS solution for gyms and small retailers.
                         </p>
                     </div>
 
@@ -33,7 +35,7 @@ const Banner = () => {
 
                     </div>
 
-                    {/* <Image src={'/assets/syspos/banner.png'} alt="banner-image" width={1200} height={598} /> */}
+                    {/* <Image src={'/assets/banner/dashboard.svg'} alt="banner-image" width={1200} height={598} /> */}
                 </div>
             </div>
         </main>

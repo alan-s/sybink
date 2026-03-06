@@ -77,7 +77,7 @@ export default class MultipleItems extends Component<{}, State> {
               {data.map((item, i) => (
                 <div
                   key={i}
-                  className="h-70 flex items-center justify-center px-6 cursor-pointer focus:outline-none object-contain opacity-70 hover:opacity-100 transition duration-300"
+                  className="h-70 flex items-center justify-center px-6 cursor-pointer focus:outline-none object-contain hover:opacity-100 transition duration-300"
                   onClick={() => this.openFullscreen(item.imgSrc)}
                 >
                   <Image
