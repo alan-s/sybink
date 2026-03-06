@@ -8,7 +8,7 @@ interface whydata {
 
 const whydata: whydata[] = [
     {
-        heading: "market-driven systems, built on proven technology.",
+        heading: "market-driven systems built on proven technology.",
         subheading: `This mindset underpins our strategy, planning, and service delivery. We design, develop, and maintain systems that are scalable, robust, and user-focused, built on proven industry technologies — and our own innovations where needed. Our goal is to equip businesses with the tools to empower their people and deliver their strategy.`,
     },
     {
@@ -23,14 +23,14 @@ We’ve grown steadily by prioritising reputation and service over rapid expansi
 
 const Why = () => {
     return (
-        <div id="about">
+        <div id="about" className="scroll-mt-32">
 
             <div className='mx-auto max-w-7xl px-4 my-20 sm:py-20 lg:px-8'>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                     {/* COLUMN-1 */}
                     <div className="lg:-ml-64">
-                        <Image src={getAssetPath("/assets/why/iPad.png")} alt="iPad-image" width={4000} height={900} />
+                        <Image src={getAssetPath("/assets/why/iPad2.png")} alt="iPad-image" width={3000} height={800} />
                     </div>
 
                     {/* COLUMN-2 */}

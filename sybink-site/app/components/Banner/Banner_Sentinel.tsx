@@ -7,7 +7,9 @@ const Banner = () => {
     return (
         <main>
             <div className="px-6 lg:px-8">
-                <div className="mx-auto max-w-7xl pt-16 sm:pt-20 pb-20 banner-image">
+                <div className="mx-auto max-w-7xl pt-20 sm:pt-20 lg:pt-16 pb-20 banner-image">
+                    {/* Background only visible on lg screens */}
+                    {/* <div className="absolute inset-0 banner-image hidden lg:block" aria-hidden="true"></div> */}
                     <div className="text-center">
                         <h1 className="text-2xl font-semibold text-navyblue sm:text-3xl lg:text-5xl md:4px lh-66">
                             Sentinel Membership Management
@@ -20,8 +22,8 @@ const Banner = () => {
                         <Image 
                             src={getAssetPath('/assets/sentinel/banner.png')} 
                             alt="banner-image" 
-                            width={1000} 
-                            height={498} 
+                            width={1024} 
+                            height={1038} 
                         />
                     </div>
                 </div>
