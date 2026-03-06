@@ -8,11 +8,11 @@ interface whydata {
 
 const whydata: whydata[] = [
     {
-        heading: "Market driven systems, built on industry proven technologies",
+        heading: "market-driven systems, built on proven technology.",
         subheading: `This mindset underpins our strategy, planning, and service delivery. We design, develop, and maintain systems that are scalable, robust, and user-focused, built on proven industry technologies — and our own innovations where needed. Our goal is to equip businesses with the tools to empower their people and deliver their strategy.`,
     },
     {
-        heading: "Our History",
+        heading: "our history.",
         subheading: `Founded in 2011, Sybink Systems has championed bespoke development for small and medium-sized businesses. We recognised that while large corporations can afford custom systems, SMBs often have different needs and tighter budgets — and we set out to change that. By listening to business and IT leaders, we’ve delivered functional, robust, design-led solutions tailored to organisations of all sizes.
 
 We’ve grown steadily by prioritising reputation and service over rapid expansion. Today, we receive enquiries from across London, the wider UK, and internationally. Most importantly, we’re proud that many of our clients return to us time and again for new projects.`,
@@ -35,8 +35,8 @@ const Why = () => {
 
                     {/* COLUMN-2 */}
                     <div>
-                        <h3 className="text-4xl lg:text-5xl pt-4 font-semibold sm:leading-tight mt-5 text-center lg:text-start">About Us.</h3>
-                        <h4 className="text-lg pt-4 font-normal sm:leading-tight text-center text-beach lg:text-start">Sybink Systems is a London-based IT solutions provider offering software development, web and graphic design, and consultancy services. We integrate robust hardware and software to deliver fully tested, end-to-end solutions.</h4>
+                        <h3 className="text-4xl lg:text-5xl pt-4 font-semibold sm:leading-tight mt-5 text-center lg:text-start">about us.</h3>
+                        <h4 className="text-lg pt-4 font-normal sm:leading-tight text-center text-beach lg:text-start">Sybink Systems is a London-based technology solutions provider offering software development, web and graphic design, and consultancy services. We integrate robust hardware and software to deliver fully tested, end-to-end solutions.</h4>
 
                         <div className="mt-10">
                             {whydata.map((items, i) => (

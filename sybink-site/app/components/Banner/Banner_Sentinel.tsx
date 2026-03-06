@@ -13,7 +13,7 @@ const Banner = () => {
                             Sentinel Membership Management
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-bluegray">
-                            Leading gym membership management software.
+                            Leading membership management software for gyms and clubs.
                         </p>
                     </div>
                     <div className="flex justify-center mt-8 ml-10">

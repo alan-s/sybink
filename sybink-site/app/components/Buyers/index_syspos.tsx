@@ -32,17 +32,17 @@ interface cardDataType {
 const cardData: cardDataType[] = [
     {
         imgSrc: getAssetPath('/assets/buyers/barcode.png'),
-        heading: "Electronic Point of Sale",
+        heading: "electronic point of sale.",
         subheading: `Intuitive and simple transactions. Complete systems available with touchscreen, barcode scanner, receipt printer and till drawer.`
     },
     {
         imgSrc: getAssetPath('/assets/buyers/stock.png'),
-        heading: "Stock Management",
+        heading: "stock management.",
         subheading: `Quickly and easily add products and services. Monitor stock additions and deductions, and reduce purchasing costs immediately.`,
     },
     {
         imgSrc: getAssetPath('/assets/buyers/speedometer.png'),
-        heading: "Review & Analysis",
+        heading: "review & analysis.",
         subheading: `Review daily, weekly and monthly takings with engaging dashboards. Create meaningful reports with the ability to export to PDF or Excel.`,
     },
 

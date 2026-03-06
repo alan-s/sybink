@@ -12,25 +12,25 @@ const cardData: cardDataType[] = [
     {
         imgSrc: getAssetPath('/assets/buyers/ourbuyers.svg'),
         percent: '4+',
-        heading: "Years operating",
+        heading: "years operating.",
         subheading: "Since 2011, we've continued to provide technology services to London SMBs.",
     },
     {
         imgSrc: getAssetPath('/assets/buyers/projectcompleted.svg'),
-        percent: '12',
-        heading: "Projects delivered",
+        percent: '50+',
+        heading: "projects delivered.",
         subheading: "We've delivered projects to gyms, restaurants, retailers, pharmacies, and many more.",
     },
     {
         imgSrc: getAssetPath('/assets/buyers/happybuyers.svg'),
         percent: '88%',
-        heading: "Recommendation",
+        heading: "recommendation.",
         subheading: "We’re highly rated, with most of our clients coming through recommendations.",
     },
     {
         imgSrc: getAssetPath('/assets/buyers/teammembers.svg'),
         percent: '24/7',
-        heading: "Ongoing support",
+        heading: "ongoing support.",
         subheading: "We offer unrivalled support throughout your project.",
     }
 

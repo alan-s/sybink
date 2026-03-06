@@ -5,7 +5,7 @@ const Clientsay = () => {
     return (
         <div className="mx-auto max-w-2xl py-40 px-4s sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="bg-image-what">
-                <h3 className='text-navyblue text-center text-4xl lg:text-6xl font-semibold'>What our clients say.</h3>
+                <h3 className='text-navyblue text-center text-4xl lg:text-6xl font-semibold'>what our clients say.</h3>
                 {/* <h4 className="text-lg font-normal text-darkgray text-center mt-4">Event madness gathering innoies,& tech enthusiasts in Speced. <br /> do more informations.</h4> */}
 
                 <div className="lg:relative">

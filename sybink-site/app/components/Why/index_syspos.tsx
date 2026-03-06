@@ -9,7 +9,7 @@ interface whydata {
 const whydata: whydata[] = [
 
     {
-        heading: "Why sysPOS",
+        heading: "why sysPOS.",
         subheading: `We’ve gone back to the core of selling to make things simple, fast, and easy to use — ideal for those who aren’t whizzes on a computer. We looked at existing packages and realised one thing:`,
 
     }

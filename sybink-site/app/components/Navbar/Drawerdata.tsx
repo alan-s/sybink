@@ -9,10 +9,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/#about', current: false },
+  { name: 'home', href: '/', current: true },
+  { name: 'about', href: '/#about', current: false },
   {
-    name: 'Products',
+    name: 'products',
     href: '',
     current: false,
     children: [
@@ -20,8 +20,8 @@ const navigation: NavigationItem[] = [
       { name: 'sysPOS', href: '/products/syspos', current: false },
     ],
   },
-  { name: 'Services', href: '/#services', current: false },
-  { name: 'Contact Us', href: '/#contact', current: false },
+  { name: 'services', href: '/#services', current: false },
+  { name: 'contact Us', href: '/#contact', current: false },
 ]
 
 function classNames(...classes: string[]) {

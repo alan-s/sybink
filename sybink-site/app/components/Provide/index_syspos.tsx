@@ -13,22 +13,22 @@ interface datatype {
 const Aboutdata: datatype[] = [
     {
         imgSrc: getAssetPath("/assets/syspos/videothumb-syspos-01.jpg"),
-        country: "Overview",
+        country: "overview.",
         link: 'https://www.youtube.com/embed/pdcHVI14YAs',
     },
     {
         imgSrc: getAssetPath("/assets/syspos/videothumb-syspos-02.jpg"),
-        country: "POS Screen",
+        country: "pos screen.",
         link: 'https://www.youtube.com/embed/PtGj5zdS4YU',
     },
     {
         imgSrc: getAssetPath("/assets/syspos/videothumb-syspos-03.jpg"),
-        country: "Setups",
+        country: "setups.",
         link: 'https://www.youtube.com/embed/mJSYhykZzQY',
     },
     {
         imgSrc: getAssetPath("/assets/syspos/videothumb-syspos-04.jpg"),
-        country: "Inventory",
+        country: "inventory.",
         link: 'https://www.youtube.com/embed/39fZSnI7L0I',
     }
 ]
@@ -55,7 +55,7 @@ const Provide = () => {
                     {/* COLUMN-1 */}
                     <div className='col-span-6 flex justify-center'>
                         <div className="flex flex-col align-middle justify-center p-10">
-                            <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">Explore sysPOS.</p>
+                            <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">explore sysPOS.</p>
                             <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">
                                 Explore our videos showcasing sysPOS and its features. We’ve included a general overview, but if you have any questions or would like a more in-depth look, please don’t hesitate to contact us. We’re also happy to arrange live web sessions for full-feature demonstrations, where all your questions can be answered.
                             </h4>

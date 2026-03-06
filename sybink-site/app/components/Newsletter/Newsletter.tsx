@@ -22,7 +22,7 @@ const Newsletter = () => {
 
                     {/* COLUMN-2 */}
                     <div className="p-10 flex flex-col justify-center">
-                        <h3 className="text-4xl md:text-5xl font-semibold mb-3 text-white">Sign up to our newsletter.</h3>
+                        <h3 className="text-4xl md:text-5xl font-semibold mb-3 text-white">sign up to our newsletter.</h3>
                         <h4 className="text-base font-normal mb-7 text-offwhite">For the latest Sentinel and sysPOs updates subscribe to our newsletter.</h4>
                         <div className="flex gap-0">
                             <input type="Email address" name="q" className="py-4 text-sm w-full text-black bg-white rounded-l-lg pl-4" placeholder="@enter email-address" autoComplete="off" />
