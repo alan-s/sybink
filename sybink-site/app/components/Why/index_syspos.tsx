@@ -25,7 +25,7 @@ const Why = () => {
 
                     {/* COLUMN-1 */}
                     <div className="lg:-ml-64">
-                        <Image src={getAssetPath("/assets/why/iPad.png")} alt="iPad-image" width={4000} height={900} />
+                        <Image src={getAssetPath("/assets/why/iPad.webp")} alt="iPad-image" width={4000} height={900} />
                     </div>
 
                     {/* COLUMN-2 */}

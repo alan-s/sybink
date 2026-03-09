@@ -20,7 +20,7 @@ const Banner = () => {
                     </div>
                     <div className="flex justify-center mt-8 ml-10">
                         <Image 
-                            src={getAssetPath('/assets/sentinel/banner.png')} 
+                            src={getAssetPath('/assets/sentinel/banner.webp')} 
                             alt="banner-image" 
                             width={1024} 
                             height={1038} 
