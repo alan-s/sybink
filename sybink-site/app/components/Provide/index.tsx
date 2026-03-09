@@ -10,24 +10,24 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
     {
-        imgSrc: getAssetPath("/assets/provide/marketing.svg"),
+        imgSrc: getAssetPath("/assets/provide/development.svg"),
         country: "software development.",
         paragraph: 'Reliable, scalable and affordable bespoke applications, tailored to your people and customers.',
 
     },
     {
-        imgSrc: getAssetPath("/assets/provide/heaking.svg"),
+        imgSrc: getAssetPath("/assets/provide/consultancy.svg"),
         country: "consultancy.",
         paragraph: 'Industry experts to help you make the right technology decisions for your business',
     },
     {
-        imgSrc: getAssetPath("/assets/provide/graphic.svg"),
+        imgSrc: getAssetPath("/assets/provide/design.svg"),
         country: "graphic & web design.",
         paragraph: 'Vibrant print design and beautifully crafted, high-performing websites — ready to power your next campaign.',
 
     },
     {
-        imgSrc: getAssetPath("/assets/provide/uidesign.svg"),
+        imgSrc: getAssetPath("/assets/provide/helpdesk.svg"),
         country: "helpdesk services.",
         paragraph: 'With our dedicated support teams & competitive rates, our help desk packages always deliver!',
     }

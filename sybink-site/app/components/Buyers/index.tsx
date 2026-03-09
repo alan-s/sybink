@@ -10,25 +10,25 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
     {
-        imgSrc: getAssetPath('/assets/buyers/ourbuyers.svg'),
+        imgSrc: getAssetPath('/assets/buyers/operating.svg'),
         percent: '4+',
         heading: "years operating.",
         subheading: "Since 2011, we've continued to provide technology services to London SMBs.",
     },
     {
-        imgSrc: getAssetPath('/assets/buyers/projectcompleted.svg'),
+        imgSrc: getAssetPath('/assets/buyers/delivered.svg'),
         percent: '50+',
         heading: "projects delivered.",
         subheading: "We've delivered projects to gyms, restaurants, retailers, pharmacies, and many more.",
     },
     {
-        imgSrc: getAssetPath('/assets/buyers/happybuyers.svg'),
+        imgSrc: getAssetPath('/assets/buyers/recommendation.svg'),
         percent: '88%',
         heading: "recommendation.",
         subheading: "We’re highly rated, with most of our clients coming through recommendations.",
     },
     {
-        imgSrc: getAssetPath('/assets/buyers/teammembers.svg'),
+        imgSrc: getAssetPath('/assets/buyers/support.svg'),
         percent: '24/7',
         heading: "ongoing support.",
         subheading: "We offer unrivalled support throughout your project.",
@@ -49,8 +49,8 @@ const Buyers = () => {
             </h2>
 
             {/* Heading row: image + heading */}
-            <div className="flex items-center space-x-4 mt-3">
-              <div className="flex justify-center border border-border p-2 w-10 rounded-lg">
+            <div className="flex items-center space-x-2 mt-3">
+              <div className="flex justify-center p-2 w-10">
                 <Image src={items.imgSrc} alt={items.imgSrc} width={30} height={30} />
               </div>
               <h3 className="text-2xl text-black font-semibold">{items.heading}</h3>

@@ -56,8 +56,8 @@ const Buyers = () => {
           <div className="flex flex-col w-full" key={i}>
             
             {/* Heading row: image + heading */}
-            <div className="flex items-center space-x-4">
-              <div className="flex justify-center border border-border p-2 w-10 rounded-lg">
+            <div className="flex items-center space-x-2">
+              <div className="flex justify-center p-2 w-10 rounded-lg">
                 <Image src={items.imgSrc} alt={items.imgSrc} width={30} height={30} />
               </div>
               <h3 className="text-2xl text-black font-semibold">{items.heading}</h3>
