@@ -8,7 +8,7 @@ interface whydata {
 
 const whydata: whydata[] = [
     {
-        heading: "market-driven systems built on proven technology.",
+        heading: "market-driven systems. built on proven technology.",
         subheading: `This mindset underpins our strategy, planning, and service delivery. We design, develop, and maintain systems that are scalable, robust, and user-focused, built on proven industry technologies — and our own innovations where needed. Our goal is to equip businesses with the tools to empower their people and deliver their strategy.`,
     },
     {

@@ -13,7 +13,7 @@ const Banner = () => {
                     {/* <div className="absolute inset-0 banner-image hidden lg:block" aria-hidden="true"></div> */}
                     <div className="text-center">
                         <h1 className="text-4xl font-semibold text-navyblue sm:text-5xl lg:text-7xl md:4px lh-96">
-                            market-driven systems <br />built on proven technology.
+                            market-driven systems.<br />built on proven technology.
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-bluegray" >
                             Sybink Systems delivers innovative software development, web and graphic design, and technology consultancy from our London base.
