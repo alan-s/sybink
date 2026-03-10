@@ -37,7 +37,7 @@ const Banner = () => {
                     </div>
                     <div className="mt-16">
                         <Image
-                            src={getAssetPath('/assets/banner/dashboard.png')}
+                            src={getAssetPath('/assets/banner/dashboard.webp')}
                             alt="banner-image"
                             width={1200}
                             height={598}

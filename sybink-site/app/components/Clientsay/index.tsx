@@ -12,7 +12,7 @@ const Clientsay = () => {
                     <Image src={getAssetPath('/assets/clientsay/avatars.webp')} alt="avatar-image" width={1061} height={733} className="hidden lg:block" />
 
                     <span className="lg:absolute lg:bottom-40 lg:left-80">
-                        <Image src={getAssetPath('/assets/clientsay/user.png')} alt="user-image" width={168} height={168} className="mx-auto pt-10 lg:pb-10" />
+                        <Image src={getAssetPath('/assets/clientsay/user.webp')} alt="user-image" width={168} height={168} className="mx-auto pt-10 lg:pb-10" />
                         <div className="lg:inline-block bg-white rounded-2xl p-5 shadow-sm">
                             <p className="text-base font-normal text-center text-darkgray">Sentinel Membership Management has streamlined our gym's <br />operations. It has made looking after the members <br /> easier and for it we’ve seen increased sales.</p>
                             <h3 className="text-2xl font-medium text-center py-2">Ken Clarke</h3>
