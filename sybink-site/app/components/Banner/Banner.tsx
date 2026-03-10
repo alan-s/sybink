@@ -7,7 +7,7 @@ import { getAssetPath } from "@/app/lib/config";
 const Banner = () => {
     return (
         <main>
-            <div className="px-6 lg:px-8">
+            <div className="px-6 lg:px-8 lg:py-10">
                 <div className="mx-auto max-w-7xl pt-16 sm:pt-20 lg:pt-16 pb-10 banner-image">
                     {/* Background only visible on lg screens */}
                     {/* <div className="absolute inset-0 banner-image hidden lg:block" aria-hidden="true"></div> */}
@@ -16,7 +16,7 @@ const Banner = () => {
                             market-driven systems.<br />built on proven technology.
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-bluegray" >
-                            Sybink Systems delivers innovative software development, web and graphic design, and technology consultancy from our London base.
+                            Sybink Systems powers businesses with cutting-edge software, web and graphic design, and expert tech consultancy from our base in London. Trusted by small and medium enterprises to deliver projects on time, on budget, and backed by an 88% client recommendation rate, we're ready to create the tools that will drive your business forward.
                             <br /><br />
                             Discover <a href="/products/sentinel" className="font-semibold text-blue-600">Sentinel Membership Management</a> — the leading membership management software for small gyms, and <a href="/products/syspos" className="font-semibold text-blue-600">sysPOS</a> — the all-in-one POS solution for gyms and small retailers.
                         </p>

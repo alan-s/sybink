@@ -85,12 +85,13 @@ export default class MultipleItems extends Component {
 
             <div className='text-center'>
                 {/* <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 cursor-default focus:outline-none object-contain opacity-70 hover:opacity-100 transition duration-300"> */}
-                    <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 cursor-default focus:outline-none">
+                    <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 cursor-default focus:outline-none">
+                    <hr />
                     <div className="py-4 lg:py-14">
                         <Slider {...settings}>
                             {data.map((item, i) =>
                                 <div key={i} className="focus:outline-none focus:ring-0">
-                                    <Image src={item.imgSrc} alt={item.imgSrc} width={140} height={140} />
+                                    <Image src={item.imgSrc} alt={item.imgSrc} width={120} height={120} />
                                 </div>
                             )}
                         </Slider>

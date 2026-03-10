@@ -72,6 +72,7 @@ export default class MultipleItems extends Component<{}, State> {
 
       <div className="bg-white" >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <hr />
           <div className="py-16">
             <Slider ref={this.sliderRef} {...settings}>
               {data.map((item, i) => (

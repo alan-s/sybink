@@ -49,7 +49,7 @@ const Provide = () => {
 
     return (
         <div id="services">
-            <div className='mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8'>
+            <div className='mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8 lg:py-36'>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-8'>
 
                     {/* COLUMN-1 */}
