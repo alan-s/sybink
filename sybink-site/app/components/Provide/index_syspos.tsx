@@ -49,12 +49,12 @@ const Provide = () => {
 
     return (
         <div id="services">
-            <div className='mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8 lg:pb-36'>
+            <div className='mx-auto max-w-7xl px-4 my-2 lg:px-8 lg:pb-36'>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-8'>
 
                     {/* COLUMN-1 */}
                     <div className='col-span-6 flex justify-center'>
-                        <div className="flex flex-col align-middle justify-center p-10">
+                        <div className="flex flex-col align-middle justify-center p-2">
                             <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">explore sysPOS.</p>
                             <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">
                                 Explore our videos showcasing sysPOS and its features. We’ve included a general overview, but if you have any questions or would like a more in-depth look, please don’t hesitate to contact us. We’re also happy to arrange live web sessions for full-feature demonstrations, where all your questions can be answered.
