@@ -7,15 +7,14 @@ The company ceased operations in 2014. This repository includes software and too
 See [Sybink Systems](https://sybink.com/)
 
 ## Software Platforms
-- Sentinel Membership Management
-- sysPOS Electronic Point of Sale
+1. **[Sentinel Membership Management]()** – membership management software for gyms and clubs
+1. **[sysPOS Electronic Point of Sale]()** – an all-in-one POS solution for gyms and small retailers
 
 ## Utilities
-- Sybink Systems Keyboard Emulator (Serial)
+1. **[Sybink Systems Keyboard Emulator (Serial)](./utilities/KeyboardEmulate)** – a keyboard emulator for serial devices
 
-## Instructions
-
-1. 
+## Miscellaneous 
+1. **[Sybink Systems Keyboard Emulator (Serial)](./utilities/KeyboardEmulate)** – a keyboard emulator for serial devices
 
 ## Notes
 - 
