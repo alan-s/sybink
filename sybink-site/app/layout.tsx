@@ -10,6 +10,9 @@ export const metadata = {
     title: 'Sybink Systems',
     description: 'Market-driven systems. Built on proven technology.',
     type: "website",
+    url: "/",
+    locale: "en_GB",
+    site_name: "Sybink Systems",
     images: [
       {
         url: "https://sybink.com/assets/logo/sybinksystems.webp",

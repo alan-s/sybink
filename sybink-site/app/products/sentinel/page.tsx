@@ -13,6 +13,8 @@ export const metadata = {
     description: "Leading membership management software for gyms and clubs",
     url: "/products/sentinel",
     type: "website",
+    locale: "en_GB",
+    site_name: "Sybink Systems",
     images: [
       {
         url: "https://sybink.com/assets/sentinel/sentinel.webp",

@@ -14,6 +14,8 @@ export const metadata = {
     description: "The all-in-one POS solution for gyms and small retailers",
     url: "/prodcuts/syspos",
     type: "website",
+    locale: "en_GB",
+    site_name: "Sybink Systems",
     images: [
       {
         url: "https://sybink.com/assets/syspos/syspos.webp",
