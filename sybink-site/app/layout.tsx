@@ -5,12 +5,11 @@ import Footer from './components/Footer/Footer';
 export const metadata = {
   title: "Sybink Systems | Market-driven systems. Built on proven technology",
   description: "Market-driven systems. Built on proven technology",
-  metadataBase: new URL("https://sybink.com"),
   openGraph: {
     title: 'Sybink Systems',
     description: 'Market-driven systems. Built on proven technology.',
     type: "website",
-    url: "/",
+    url: "https://sybink.com",
     locale: "en_GB",
     site_name: "Sybink Systems",
     images: [

@@ -8,11 +8,10 @@ import Provide from '@/app/components/Provide/index_syspos';
 export const metadata = {
   title: "Sybink Systems | sysPOS Electronic Point of Sale",
   description: "The all-in-one POS solution for gyms and small retailers",
-  metadataBase: new URL("https://sybink.com"),
   openGraph: {
     title: "Sybink Systems | sysPOS Electronic Point of Sale",
     description: "The all-in-one POS solution for gyms and small retailers",
-    url: "/prodcuts/syspos",
+    url: "https://sybink.com/prodcuts/syspos",
     type: "website",
     locale: "en_GB",
     site_name: "Sybink Systems",

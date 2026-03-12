@@ -7,11 +7,10 @@ import Newsletter from '@/app/components/Newsletter/Newsletter';
 export const metadata = {
   title: "Sybink Systems | Sentinel Membership Management",
   description: "Leading membership management software for gyms and clubs",
-  metadataBase: new URL("https://sybink.com"),
   openGraph: {
     title: "Sybink Systems | Sentinel Membership Management",
     description: "Leading membership management software for gyms and clubs",
-    url: "/products/sentinel",
+    url: "https://sybink.com/products/sentinel",
     type: "website",
     locale: "en_GB",
     site_name: "Sybink Systems",
