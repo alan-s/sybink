@@ -13,7 +13,7 @@ export const metadata = {
     url: "https://sybink.com/products/sentinel",
     type: "website",
     locale: "en_GB",
-    site_name: "Sybink Systems",
+    siteName: "Sybink Systems",
     images: [
       {
         url: "https://sybink.com/assets/sentinel/sentinel.webp",

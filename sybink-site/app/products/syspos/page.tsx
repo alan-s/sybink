@@ -14,7 +14,7 @@ export const metadata = {
     url: "https://sybink.com/prodcuts/syspos",
     type: "website",
     locale: "en_GB",
-    site_name: "Sybink Systems",
+    siteName: "Sybink Systems",
     images: [
       {
         url: "https://sybink.com/assets/syspos/syspos.webp",
