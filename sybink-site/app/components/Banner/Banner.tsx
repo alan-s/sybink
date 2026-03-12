@@ -7,12 +7,10 @@ import { getAssetPath } from "@/app/lib/config";
 const Banner = () => {
     return (
         <main>
-            <div className="px-6 lg:px-8 lg:py-10">
-                <div className="mx-auto max-w-7xl pt-16 sm:pt-20 lg:pt-16 pb-10 banner-image">
-                    {/* Background only visible on lg screens */}
-                    {/* <div className="absolute inset-0 banner-image hidden lg:block" aria-hidden="true"></div> */}
+                <div className="px-6 lg:px-8">
+                <div className="mx-auto max-w-7xl pt-8 sm:pt-12 lg:pt-16 pb-10 banner-image">
                     <div className="text-center">
-                        <h1 className="text-4xl font-semibold text-navyblue sm:text-5xl lg:text-7xl md:4px lh-96">
+                        <h1 className="text-4xl sm:text-5xl lg:text-7xl font-semibold text-navyblue lh-96 sm:max-w-3xl lg:max-w-full mx-auto text-center text-balance">
                             market-driven systems.<br />built on proven technology.
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-bluegray" >

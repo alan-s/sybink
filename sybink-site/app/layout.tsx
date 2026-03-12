@@ -13,7 +13,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: getAssetPath("/assets/logo/logo.png"),
+        url: getAssetPath("/assets/logo/sybinksystems.webp"),
         width: 1200,
         height: 630,
       },
