@@ -3,6 +3,10 @@ name: Deploy to GitHub
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'sybink-site/**'
+    pull_request:
+      - 'sybink-site/**'      
   workflow_dispatch:
 
 permissions:
