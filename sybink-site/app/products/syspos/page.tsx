@@ -6,8 +6,22 @@ import Newsletter from '@/app/components/Newsletter/Newsletter';
 import Provide from '@/app/components/Provide/index_syspos';
 
 export const metadata = {
-  title: "sysPOS",
-  description: "sysPOS Electronic Point of Sale",
+  title: "Sybink Systems | sysPOS Electronic Point of Sale",
+  description: "The all-in-one POS solution for gyms and small retailers",
+  metadataBase: new URL("https://sybink.com"),
+  openGraph: {
+    title: "Sybink Systems | sysPOS Electronic Point of Sale",
+    description: "The all-in-one POS solution for gyms and small retailers",
+    url: "/prodcuts/syspos",
+    type: "website",
+    images: [
+      {
+        url: "https://sybink.com/assets/syspos/syspos.webp",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
 };
 
 export default function Home() {
